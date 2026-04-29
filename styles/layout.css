@@ -4,16 +4,46 @@
 *************************************************/
 
 /* Positioning of the Header, Nav, Main, Footer */
+body{
+   display: flex;
+   flex-flow: row wrap;
+   position: relative;
+   min-width: 850px;
+}
 
+header{
+   flex-basis: 100%;
+   order: 1;
+}
 
+main{
+   flex:4;
+   order: 3;
+}
+nav{
+   flex:1;
+   order: 2;
+}
 
+footer{
+   flex-basis: 100%;
+   order: 4;
+}
+
+nav li{
+   display:block;
+}
 
 
 /* End Positioning of the Header, Nav, Main, Footer
  ********************
 /* Positioning of Client Login Nav box */
 
-
+nav#client{
+   position:absolute;
+   top: 20px;
+   right: 30px;
+}
 
 
 

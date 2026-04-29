@@ -6,9 +6,31 @@
 
 /* Formatting of Client Login Nav box */
 
+nav#client {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.7em;
+    line-height: 1.1em;
+    padding: 0.5em;
+    border: dotted black thin;
+    background-color: #d7eae4;
+  
+}
+nav#client li{
+    display: inline;
+    padding-left: 0.5em;
+  }  
 
+  nav#client time{
+    margin:0;
+    padding: 0;
+    border: none;
+  }
 
-
+  nav#client ul{
+    margin:0;
+    padding: 0;
+    border: none;
+  }
 /* END Formatting of Client Login Nav box 
 /*
 
@@ -77,6 +99,7 @@ header h2{
 
 /* Navigation Formatting */
 nav{
+
     font-family: Gil Sans, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
